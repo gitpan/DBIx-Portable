@@ -1,0 +1,60 @@
+2003-01-05   Darren Duncan <perl@DarrenDuncan.net>
+
+	* Release 0.01.
+	
+	* This is the initial release.  It contains only documentation, and all of 
+	that is in the file Portable.pm.  This documentation isn't complete, but it 
+	should be enough for a first version, and I am keeping strictly to a Jan 5 
+	release date regardless of completeness.
+	
+2002-12-14   Darren Duncan <perl@DarrenDuncan.net>
+
+	* Began creating this new Perl distribution package for CPAN, using an 
+	initial title of DBIx-Portable-0.01, including ReadMe and ChangeLog files.
+
+2002-11-12   Darren Duncan <perl@DarrenDuncan.net>
+
+	* Began development on these modules as their own entity that is separate
+	from the application, which will be distributed open-source on CPAN, using
+	initial titles of DBIx::Portable and DBIx::Portable::*.  The modules are to
+	comprise an RDBMS-generic DB framework for any application to use.  This
+	development effort was discussed with the victoria.pm Perl Mongers group.
+	
+	* Modules based on a template created by h2xs 1.18.
+
+2002-07-28
+
+	* Posted the first significant update to the second prototype, which added
+	an index or cache for data that was expensive to calculate for each page
+	request, and involved rewriting about a fourth of the perl code.
+
+2002-06-07
+
+	* Posted to my website the second public prototype demo of the new
+	self-proprietary database driven application, whose database schema, user
+	interface, feature set, and Perl application code was almost completely
+	rewritten. The new version explicitly had separate modules for database
+	communication and the web interface logic, with MySQL-specific code and
+	database generic or data dictionary code in separate files, and separate
+	files for parts of the web interface.  The program used the same generic
+	CPAN modules as in the first prototype, DBI/MySQL and CGI::Portable.
+
+2001-11-24
+
+	* Posted the last update to the first prototype.
+
+2001-07-12
+
+	* Posted to my website the first public prototype demo of a new
+	self-proprietary database driven application, which is like a cross between
+	a multimedia metadata catalogue and a repository for historical or
+	genealogical data.  This application contained the first prototypes of code
+	that ended up in these modules. All of this application's code, for
+	database communication and web interface logic, was situated in a single
+	module, with the rest of the program being more generic CPAN modules like
+	DBI (and DBD for MySQL) and CGI::Portable.
+
+2000-05-17
+
+	* Requested MySQL database privileges on my web host so I have something to
+	start developing, testing and deploying database driven applications on.
